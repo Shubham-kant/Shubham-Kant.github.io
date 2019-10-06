@@ -541,7 +541,7 @@ section{
     	left:-8%;
     }
     .timeline-box:nth-child(2n+1)::after{
-    	left: -8%;
+    	left: -11%;
     }
     .section-heading span{
     	font-size: 35px;
@@ -599,7 +599,7 @@ section{
 	right: 10%;
 }
 .minimini span{
-	font-size: 20px;
+	font-size: 18px;
 	/*display: flex;*/
 
 }
@@ -619,7 +619,7 @@ section{
 
 }
 .contact-social-icons{
-	position: relative;
+	position: absolute;
 	bottom:16rem;
 }
 
@@ -634,7 +634,7 @@ section{
 	}
 	 .timeline-box:nth-child(2n)::after{
 		/*right:-10%;*/
-		left:-28px;
+		left:-23px;
     }
     .timeline-box:nth-child(2n+1)::after{
     	right:-10%;
