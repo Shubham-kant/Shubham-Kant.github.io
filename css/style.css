@@ -238,7 +238,7 @@ section{
 
 #cpp{
 	 height: inherit;
-     width: 85%;
+     width: 90%;
      
 	border-radius: 0.99rem 0rem 0rem 0.99rem ;
    
@@ -249,7 +249,7 @@ section{
 }
 #html{
 	height: inherit;
-     width:90%;
+     width:85%;
      background-color: #eb4334;
      
      
@@ -258,7 +258,7 @@ section{
 }
 #python{
 	height: inherit;
-     width:80%;
+     width:70%;
      background-color: #eb345f;
 	border-radius: 0.99rem 0rem 0rem 0.99rem ;
 }
@@ -288,13 +288,13 @@ section{
 }
 #javascript{
 	height: inherit;
-	width: 80%;
+	width: 85%;
 	background-color: #eb34c3;
 	border-radius: 0.99rem 0rem 0rem 0.99rem ;
 	 /*border-right:none;*/
 
 }
-#bootstrap{
+#express{
 	height: inherit;
 	width: 80%;
 	background-color: #660af0;
