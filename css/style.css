@@ -3,7 +3,7 @@
 	background-image: url(../images/banner.jpg);
 	background-size: cover;
 	height: 80vh;
-	margin-top: -20px;
+	margin-top: -55px;
 	background-position: center;
 	background-attachment: fixed;
 	opacity: 0.9;
@@ -64,10 +64,12 @@ a{
 	.no-list-style{
     list-style: none;
 }
-
+.navigation-links {
+	margin-top: 10px;
+}
 .no-list-style li {
     font-weight: 100;
-    font-size: 0.9rem;
+    font-size: 18px;
     padding-top: 0.8rem;
 }
 
@@ -93,7 +95,7 @@ a{
 .hori-list li{
 	display: inline-block;
 	margin: 0px 8px 8 0;
-	
+	font-size: 18px;
 
 	
 	/*text-align: center;*/
@@ -512,6 +514,9 @@ section{
 @media screen and (max-width: 600px){
 	.bars{
 		display: block;
+	}
+	.nav-bar-section {
+		margin-top: 16px;
 	}
 	.nav-menu{
 		display: none;
