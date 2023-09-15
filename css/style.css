@@ -236,77 +236,58 @@ section{
 
 }
 
-#cpp{
-	 height: inherit;
+.typescript{
      width: 90%;
-     
-	border-radius: 0.99rem 0rem 0rem 0.99rem ;
-   
-     
      background-color: #42fa0f;
 
 
 }
-#html{
-	height: inherit;
+.html{
      width:85%;
      background-color: #eb4334;
-     
-     
-	border-radius: 0.99rem 0rem 0rem 0.99rem ;
-    
 }
-#python{
-	height: inherit;
+.angular{
      width:70%;
      background-color: #eb345f;
-	border-radius: 0.99rem 0rem 0rem 0.99rem ;
 }
-#css{
-	height: inherit;
+.css{
 	width: 80%;
 	background-color: #eb34cc;
-	border-radius: 0.99rem 0rem 0rem 0.99rem ;
 	 /*border-right:none;*/
 
 }
-#nodejs{
-	height: inherit;
+.nodejs{
 	width: 80%;
 	background-color: #34b7eb;
-	border-radius: 0.99rem 0rem 0rem 0.99rem ;
 	 /*border-right:none;*/
 
 }
-#mongodb{
-	height: inherit;
-	width: 80%;
-	background-color: #3449eb;
-	border-radius: 0.99rem 0rem 0rem 0.99rem ;
+.mongodb{
+	width: 80%;background-color: #3449eb;
 	 /*border-right:none;*/
 
 }
-#javascript{
-	height: inherit;
+.javascript{
 	width: 85%;
 	background-color: #eb34c3;
-	border-radius: 0.99rem 0rem 0rem 0.99rem ;
 	 /*border-right:none;*/
 
 }
-#express{
-	height: inherit;
+.express{
 	width: 80%;
 	background-color: #660af0;
-	border-radius: 0.99rem 0rem 0rem 0.99rem ;
 	 /*border-right:none;*/
 
 }
-#jquery{
-	height: inherit;
+.bootstrap{
 	width: 80%;
 	background-color: #ab34eb;
-	border-radius: 0.99rem 0rem 0rem 0.99rem ;
+	 /*border-right:none;*/
+
+}
+.sass{
+	width: 80%;
+	background-color: #34eb80;
 	 /*border-right:none;*/
 
 }
@@ -322,6 +303,13 @@ section{
    overflow: hidden;
    margin:25px;
 
+}
+
+.skill-name-section {
+	display: flex;
+	align-items: center;
+	height: inherit;
+	border-radius: 0.99rem 0rem 0rem 0.99rem ;
 }
 
 .skill-name span{
