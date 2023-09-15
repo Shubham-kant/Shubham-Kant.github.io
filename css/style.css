@@ -1,5 +1,5 @@
+/*
 .body-header{
-	/*background-image: url( "file:///C:/Users/HP/Desktop/desk%20files/desk%20pics/lapi2.jpg");*/
 	background-image: url(../images/banner.jpg);
 	background-size: cover;
 	height: 80vh;
@@ -38,12 +38,10 @@ a{
 	}
 	.dropdown-list {
 		display: none;
-  		/*background-color: lightgrey;*/
   		box-shadow: 0px 4px 8px 1px #535547;
   		color: blue;
   		min-width: 160px;
   		background-color:#828470; 
-  		/*padding-top: 2rem;*/
 
 	}
 	.bars i{
@@ -55,12 +53,6 @@ a{
     text-align: left;
     padding: 0.7px 0.8rem;
 }
-	/*.dropdown-menu:hover .dropdown-list{
- 		display: block;
- 		position:absolute;
- 		right: 3.5%;
- 		background-color:#828470; 
-	}*/
 	.no-list-style{
     list-style: none;
 }
@@ -86,11 +78,8 @@ a{
 
 .hori-list{
 	list-style: none;
-	/*text-align: center;*/
 	padding-left: 0px;
 	margin-right: 80px;
-	/*text-decoration:none;*/
-	/*position: fixed;*/
 }
 .hori-list li{
 	display: inline-block;
@@ -98,7 +87,6 @@ a{
 	font-size: 18px;
 
 	
-	/*text-align: center;*/
 }
 .hori-list li a{
 	text-decoration: none;
@@ -109,7 +97,6 @@ a{
 
 }
 .hori-list li  a:hover{
-	/*text-decoration: none;*/
 	color: lightgrey;
 	border-bottom-width: 1px;
 	border-bottom-color: lightgrey;
@@ -216,8 +203,6 @@ section{
 	font-weight: 400;
 	padding: 10px 20px 10px 20px;
 	color: #2857a4;
-	/*display: flex;*/
-	/*flex-direction: row;*/
 }
 .section-heading span
 {
@@ -255,46 +240,38 @@ section{
 .css{
 	width: 80%;
 	background-color: #eb34cc;
-	 /*border-right:none;*/
 
 }
 .nodejs{
 	width: 80%;
 	background-color: #34b7eb;
-	 /*border-right:none;*/
 
 }
 .mongodb{
 	width: 80%;background-color: #3449eb;
-	 /*border-right:none;*/
 
 }
 .javascript{
 	width: 85%;
 	background-color: #eb34c3;
-	 /*border-right:none;*/
 
 }
 .express{
 	width: 80%;
 	background-color: #660af0;
-	 /*border-right:none;*/
 
 }
 .bootstrap{
 	width: 80%;
 	background-color: #ab34eb;
-	 /*border-right:none;*/
 
 }
 .sass{
 	width: 80%;
 	background-color: #34eb80;
-	 /*border-right:none;*/
 
 }
 .skill-progress{
-   /*dius: 50%;*/
    display: inline-block;
    width: 11rem;
    height: 2.2rem;
@@ -338,61 +315,17 @@ section{
 }
 #contact{
 	 background-image: linear-gradient(to right,#2857a4,#403066);
-	 /*height: 10rem;*/
 	 height: auto;
 	 display: flex;
 	 width: auto;
 	 position: relative;
-	 /*height: 20rem;*/
-	 /*background-color: #0abcf9;*/
 	 padding:10%;
-	 /*left: 10%;*/
 	 
 
-	 /*width: 100%;*/
 
 	 flex-wrap: wrap;
 
 }
-/*.form{*/
-	/*position: relative;*/
-	/*right: 100px;*/
-/*}*/
-/*.form input,textarea{
-		 background:transparent;
-		 display: block;
-		 padding:10px;
-		 color: white;
-		 font-size: 1.1rem;
-		 border: 1px solid transparent ;
-		 margin-bottom: 25px;
-		 border-bottom: 3px solid white;
-		 width: 20rem;
-		 background: transparent;
-		 line-height: 1.6rem;
-		 outline: none; 
-
-}*/
-
-/*.form button{
-	background: transparent;
-	border:2px solid white;
-	padding: 10px;
-	color: white;
-	text-transform: uppercase;
-	font-style: bold;
-
-	
-	cursor: pointer;
-	font-size: 1.1rem;
-	 line-height: 1.6rem;
-
-
-}
-.form button:hover{
-	background-color:white;
-	color: blue;
-}*/
 #contact-heading{
 	position: relative;
 	bottom:4rem;
@@ -411,13 +344,10 @@ section{
 	position: relative;
 	bottom:8.3rem;
 	
-	/*bottom: 295px;*/
 }
 .contact-social-icons{
-	/*margin-bottom: 1/00px;*/
 	position: relative;
 	bottom:8.3rem;
-	/*bottom:10rem;*/
 }
 
 #singlebutton {
@@ -440,7 +370,6 @@ section{
     text-decoration: none;
 
 }
-/*EXPERIENCE SECTION*/
 #experience{
 	height: 690px;
 }
@@ -467,7 +396,6 @@ section{
 }
 .divider{
 	height: 75%;
-    /*here i used absolute bcoz i wanted to that dashed line within the container.*/
 	position: absolute;
 	top: 8%;
 	left: 50%;
@@ -593,7 +521,6 @@ section{
 }
 .minimini span{
 	font-size: 18px;
-	/*display: flex;*/
 
 }
 #experience{
@@ -626,7 +553,6 @@ section{
 		display: none;
 	}
 	 .timeline-box:nth-child(2n)::after{
-		/*right:-10%;*/
 		left:-23px;
     }
     .timeline-box:nth-child(2n+1)::after{
@@ -673,13 +599,11 @@ section{
 }
 #projects{
 	height: 840px;
-	/*margin-top: 400px;*/
 	position: relative;
 	top: 450px;
 
 	}
 #project-list li{
-	/*padding: 2rem;*/
 	padding: 1rem 0 1rem 0;
 }
 #project-list li i{
@@ -695,4 +619,70 @@ section{
 	text-decoration: underline;
 	
 }
-
+*/
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+  body {
+	width: 100%;
+	font-family: sans-serif;
+	display: flex;
+    flex-direction: column;
+    height:100vh;
+  }
+  .portfolio {
+	background-color: #A88BF8;
+	justify-content: space-evenly;
+	display: flex;
+    flex-direction: column;
+	flex-grow: 1;
+  }
+  .profile-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+    align-items: center;
+	margin-top: 24px;
+	margin-bottom: 24px;
+  }
+  .profile-picture {
+	border-radius: 50%;
+	width: 200px;
+	margin-bottom: 12px;
+  }
+  .name {
+	color: white;
+	margin-top: 16px;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 24px;
+}
+.about-me {
+	color: white;
+	font-size: 20px;
+	line-height: 24px;
+	margin-top:24px;
+	margin-left: 36px;
+	padding: 0 48px;
+	margin-right: 36px;
+	text-align: center;
+	}
+  .handles-container {
+	display: flex;
+	justify-content: center;
+  }
+  .handle {
+	margin: 20px;
+  }
+  .handle-icon {
+	color: white;
+	font-size: 26px;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+  }
+  .handle-icon:hover {
+	transform: scale(1.3);
+  }
