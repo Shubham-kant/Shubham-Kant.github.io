@@ -1,6 +1,6 @@
+/*
 //smooth scroll
 var navMenuAnchorTags=document.querySelectorAll('.no-list-style  a');
-// console.log(navMenuAnchorTags[3].href);
 var element;
 var interval;
 for(var i=0;i<navMenuAnchorTags.length;i++){
@@ -101,7 +101,7 @@ $('.bars').on('click',function(){
     }
 });
 
-
+*/
 
 
 
